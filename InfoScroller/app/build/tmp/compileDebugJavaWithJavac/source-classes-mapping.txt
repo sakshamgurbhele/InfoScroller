@@ -1,0 +1,4 @@
+com/example/infoscroller/BuildConfig.java
+ com.example.infoscroller.BuildConfig
+com/example/infoscroller/MainActivity.java
+ com.example.infoscroller.MainActivity
