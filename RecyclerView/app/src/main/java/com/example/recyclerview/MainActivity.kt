@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         heading = arrayOf(
-            "Volvo", "BMW", "Ford", "Mazda", "Volvo"
+            "Volvo", "BMW", "Ford", "Mazda", "Volvo", "Volvo", "BMW", "Ford", "Mazda", "Volvo"
         )
         imageID = arrayOf(
             R.drawable.b,
