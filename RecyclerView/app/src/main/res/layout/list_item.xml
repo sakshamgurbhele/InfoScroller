@@ -20,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="1dp"
         android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
         android:background="@color/black"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -33,6 +34,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
