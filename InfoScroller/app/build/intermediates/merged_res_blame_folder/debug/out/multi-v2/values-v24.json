@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/saksham/AndroidStudioProjects/InfoScroller/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/saksham/AndroidStudioProjects/InfoScroller/InfoScroller/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/saksham/.gradle/caches/transforms-3/28e3699e3cda6166bcd0cc403f8c832c/transformed/appcompat-1.3.1/res/values-v24/values-v24.xml",

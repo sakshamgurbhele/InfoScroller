@@ -21,7 +21,7 @@ class MyAdapterS(private val newsList : ArrayList<News>) : RecyclerView.Adapter<
     override fun onBindViewHolder(holder: MyviewHolder, position: Int) {
         val currentItem = newsList[position]
         holder.heading.text = currentItem.heading
-        holder.myimage.setImageResource(currentItem.myimage)
+//        holder.myimage.setImageResource(currentItem.myimage)
 
 
     }
@@ -34,7 +34,7 @@ class MyAdapterS(private val newsList : ArrayList<News>) : RecyclerView.Adapter<
 
         val heading : TextView = itemView.findViewById(R.id.heading)
 
-        var myimage : ShapeableImageView = itemView.findViewById(R.id.myimage)
+//        var myimage : ShapeableImageView = itemView.findViewById(R.id.myimage)
 
     }
 

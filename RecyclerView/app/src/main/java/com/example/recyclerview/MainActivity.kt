@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         )
 
 
-        newRecyclerview = findViewById(R.id.Recyclerview)
+        newRecyclerview = findViewById(R.id.recyclerView)
         newRecyclerview.layoutManager = LinearLayoutManager(this)
         newRecyclerview.setHasFixedSize(true)
 
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getUserdata() {
         for(i in heading.indices){
-            val news = News(heading[i], imageID[i])
+            val news = News(heading[i])
             newArrayList.add(news)
         }
         newRecyclerview.adapter = MyAdapterS(newArrayList)
